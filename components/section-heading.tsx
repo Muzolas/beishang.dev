@@ -1,20 +1,35 @@
+import React from "react"
+
 export function SectionHeading({
   index,
   title,
   subtitle,
+  centered = false,
 }: {
-  index: string
-  title: string
+  index?: string
+  title: React.ReactNode
   subtitle?: string
+  centered?: boolean
 }) {
   return (
-    <div className="mb-10">
-      <div className="flex items-center gap-3">
-        <span className="font-mono text-sm text-emerald-400">{index}</span>
-        <span className="h-px flex-1 max-w-24 bg-gradient-to-r from-emerald-500/50 to-transparent" />
-      </div>
-      <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">{title}</h2>
-      {subtitle && <p className="mt-2 max-w-2xl text-muted-foreground">{subtitle}</p>}
+    <div className={`mb-12 ${centered ? "text-center mx-auto" : ""}`}>
+      {index && (
+        <div className={`flex items-center gap-3 ${centered ? "justify-center" : ""}`}>
+          <span className="font-mono text-xs font-semibold tracking-wider text-emerald-400 uppercase">
+            // {index}
+          </span>
+          <span className="h-px w-16 bg-gradient-to-r from-emerald-500/60 to-transparent" />
+        </div>
+      )}
+      <h2 className="mt-3 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
+        {title}
+      </h2>
+      {subtitle && (
+        <p className={`mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base ${centered ? "mx-auto" : ""}`}>
+          {subtitle}
+        </p>
+      )}
     </div>
   )
 }
+
