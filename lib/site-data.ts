@@ -24,7 +24,7 @@ export const siteData = {
       githubHandle: "github.com/Muzolas",
       linkedin: "https://linkedin.com/in/muzafferbeysankalem",
       linkedinHandle: "linkedin.com/in/muzafferbeysankalem",
-      avatar: "/avatar-real.jpg",
+      avatar: "/avatar.png",
       cvPdf: "/CV - Software Engineer _ Muzaffer Beysan Kalem.pdf",
       summary:
         "Yazılım Mühendisi olarak kurumsal backend, API tasarımı ve veri modeli üzerine çalışıyorum. C# / .NET Core, PostgreSQL ve modern web teknolojileriyle güvenilir ve sürdürülebilir çözümler üretmeye odaklanıyorum. Özellikle kurumsal e-dönüşüm ve muhasebe alanındaki projelerde, frontend ve backend katmanlarını düzenli bir mimariyle birleştirme, veri güvenliği ve operasyonel süreklilik gibi konulara odaklandım. Öğrenim ve iş süreçlerimde nesne yönelimli programlama, temiz kod prensipleri ve sistem tasarımı alanlarında sağlam bir temel oluşturdum. Geliştirme sürecinde Cursor, GitHub Copilot, Claude ve Gemini gibi yapay zeka destekli araçları kullanarak kod üretimi, hata ayıklama ve araştırma süreçlerini daha verimli şekilde yönetiyorum.",
@@ -257,7 +257,7 @@ export const siteData = {
       githubHandle: "github.com/Muzolas",
       linkedin: "https://linkedin.com/in/muzafferbeysankalem",
       linkedinHandle: "linkedin.com/in/muzafferbeysankalem",
-      avatar: "/avatar-real.jpg",
+      avatar: "/avatar.png",
       cvPdf: "/CV - Software Engineer _ Muzaffer Beysan Kalem.pdf",
       summary:
         "As a Software Engineer, I focus on enterprise backend architectures, robust API design, and resilient data modeling. Specialized in C# / .NET Core, PostgreSQL, and modern web systems. In enterprise e-transformation and accounting platforms, I integrated frontend and backend layers with modular architectures, ensuring data security and operational continuity. Highly proficient in AI-assisted engineering with Cursor, GitHub Copilot, Claude, and Gemini to maximize velocity and code excellence.",
