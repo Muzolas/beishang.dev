@@ -13,3 +13,6 @@ pnpm install # veya npm install
 # Geliştirme sunucusunu başlatın
 pnpm dev # veya npm run dev
 ```
+
+## Telemetri & Canlı Dağıtım
+Bu proje, **NexusApp (ICC)** üzerinden CI/CD iş akışları, Vercel dağıtımları ve sürüm kapıları ile uçtan uca izlenmektedir.
